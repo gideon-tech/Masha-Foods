@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    text-align: center;
+}
+
+header img{
+    width: 100px;
+}
+
+nav{
+    background-color: beige;
+    padding: 20px;
+}
+
+nav a{
+
+    margin: 0 10px;
+    
+}
+
+.welcome {
+    background-color: navy;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.welcome h3{
+    font-size: 16px;
+}
+
+.welcome h1{
+    font-size: 32px;
+}
+
+.dine {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 50px;
+}
+
+.dine img{
+    width: 50%;
+}
+
+.dine div{
+    text-align: center;
+}
+
+.delivery{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 50px;
+
+}
+.delivery img{
+    width: 50%;
+}
+
+.delivery div{
+    text-align: center;
+}
+
+.menu{
+    background-color: beige;
+    text-align: center;
+    padding: 40px;
+}
+
+.food-images{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.food-images img{
+    width: 30%;
+    border-radius: 10px;
+
+}
+
+.review-section{
+    display: flex;
+    gap: 40px;
+    padding: 50px;
+}
+
+.review-form{
+    width: 50%;
+
+}
+.reviews-list{
+    width: 50%;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+button {
+    padding: 10px 20px;
+}
+
+footer{
+    background-color: beige;
+    text-align: center;
+    padding: 30px;
+}
